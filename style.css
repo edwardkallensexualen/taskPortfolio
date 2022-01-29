@@ -238,11 +238,13 @@ body.active{
 .backsubject .portfolio__button:hover{
   background: #BDAE82;
 }
-.backsubject nav{
-  background: #FFFFFF;
-}
-.backsubject nav a{
-  color: #000000;
+@media (max-width: 768px) {
+  .backsubject nav{
+    background: #FFFFFF;
+  }
+  .backsubject nav a{
+    color: #000000;
+  }
 }
 .backsubject .header__burger.active::after{
   background: #000000;
